@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Baskervville|Roboto:400,700&display=swap');
+
+body {
+  background-color:  #00ffcc;
+  color: black;
+  font-family: "Times", Tahoma, serif;
+}
+
+
+/* text */
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: pink;
+  border: 4px solid blue;
+  padding: 30px 0;
+  margin-bottom: 60px;
+  width: 500px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+/* font */
+h2 {
+  font-weight: normal;
+  font-style: oblique;
+  font-size: 30px;
+}
+
+ul {
+  font-size: 14px
+}
+
+a {
+  font-style: italic;
+  border: 10px solid white;
+}
+
+#first-list {
+  background-color: lime
+}
+
+#first-list li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.mammals {
+  color: red;
+  font-weight: bold;
+}
+
+.birds {
+  color: blue;
+  font-style: italic;
+}
+
+.fish {
+  color: orange;
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 200px; 
+}
